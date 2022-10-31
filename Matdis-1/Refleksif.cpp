@@ -14,7 +14,7 @@ int main(){
 	cout<<"Ukuran Himpunan B : ";
 	cin>>b;
 	int r[b][2];
-	cout<<"Himpunan B(a,b) : ";
+	cout<<"Himpunan B(a,b) : "<<endl;
 	for(int i=0;i<b;i++){
 		for(int j=0;j<2;j++){
 			cin>>r[i][j];
