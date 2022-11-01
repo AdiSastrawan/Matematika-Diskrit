@@ -4,17 +4,17 @@ using namespace std;
 
 int main(){
 	int a,b;
-	cout<<"Ukuran Himpunan A : ";
+	cout<<"Size of set A: ";
 	cin>>a;
-	cout<<"Himpunan A : ";
+	cout<<"Element of set A: ";
 	int arr[a];
 	for(int i=0;i<a;i++){
 		cin>>arr[i];
 	}
-	cout<<"Ukuran Himpunan B : ";
+	cout<<"Size of set B : ";
 	cin>>b;
 	int r[b][2];
-	cout<<"Himpunan B(a,b) : "<<endl;
+	cout<<"Element of set B(a,b) : "<<endl;
 	for(int i=0;i<b;i++){
 		for(int j=0;j<2;j++){
 			cin>>r[i][j];
@@ -29,8 +29,8 @@ int main(){
 		}
 	}
 	if(count>=a){
-		cout<<"Refleksif";
+		cout<<"is Reflexive";
 	}else {
-		cout<<"Tidak Refleksif";
+		cout<<"is not Reflexive";
 	}
 }

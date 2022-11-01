@@ -4,9 +4,9 @@ using namespace std;
 
 int main(){
 	int a,b;
-	cout<<"bilangan a : ";
+	cout<<"Number A : ";
 	cin>>a;
-	cout<<"bilangan b : ";
+	cout<<"Number B : ";
 	cin>>b;
 	int temp=a;
 	while(temp%b!=0){
